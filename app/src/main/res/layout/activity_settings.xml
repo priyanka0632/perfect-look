@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/settings"
+        android:scaleType="centerCrop"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CCFFFFFF"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/back_arrow"
+    android:id="@+id/back_arrow"
+    android:onClick="back_arrow"
+    android:padding="5dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Settings -"
+        android:textSize="38dp"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/settings"/>
+
+     <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/settings"
+    android:layout_marginTop="40dp"
+         android:layout_centerVertical="true"
+    android:id="@+id/relative">
+
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:src="@drawable/password_icon"
+    android:layout_marginLeft="20dp"
+    android:layout_alignBottom="@+id/password_txt"
+    android:id="@+id/change_password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:id="@+id/password_txt"
+        android:fontFamily="serif-monospace"
+        android:layout_toRightOf="@+id/change_password"
+        android:onClick="change_password"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative1">
+
+        <ImageView
+            android:id="@+id/about_us"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+           android:layout_alignBottom="@+id/aboutUs_txt"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/about_us" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:textSize="25dp"
+            android:fontFamily="serif-monospace"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/about_us"
+            android:onClick="About_us"
+            android:id="@+id/aboutUs_txt"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative2">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/help"
+            android:layout_marginLeft="20dp"
+           android:layout_alignBottom="@+id/help_txt"
+            android:id="@+id/help"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/help_txt"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif-monospace"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/help"
+            android:onClick="help"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative3">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/share_icon"
+            android:layout_marginLeft="20dp"
+          android:layout_alignBottom="@+id/share_txt"
+            android:id="@+id/share"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="#000"
+            android:id="@+id/share_txt"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif-monospace"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/share"
+            android:onClick="share"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative4">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/logout_icon"
+            android:layout_marginLeft="20dp"
+           android:layout_alignBottom="@+id/logout_txt"
+            android:id="@+id/logout"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="#000"
+            android:id="@+id/logout_txt"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:layout_centerVertical="true"
+            android:fontFamily="serif-monospace"
+            android:layout_centerHorizontal="true"
+            android:onClick="logout"
+            android:layout_toRightOf="@+id/logout"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>

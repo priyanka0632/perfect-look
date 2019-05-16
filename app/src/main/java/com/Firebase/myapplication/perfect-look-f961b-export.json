@@ -1,0 +1,122 @@
+{
+  "About_us" : {
+    "Text" : "jdfyusd"
+  },
+
+  "Body_Type" : {
+
+    "Female":{
+    "Rectangle_shape" : {
+      "Images" : "URL",
+      "What_not_to_wear" : "Avoid wearing clothes that highlight your waist. Also avoid rigid and shapeless clothes.",
+      "What_to_wear" : "Tube tops or dresses would look charming on you. It suits the shape of your body and highlights your features. A belt with the dress will help you create a slim shape. Try different textures and cuts. You will look great in pants. Look for scoop necks and sweetheart tops. Also layering adds more dimensions to this shape. "
+    },"Pear_shape" : {
+        "Images" : "URL",
+        "What_not_to_wear" : "Stay away from pleats, side pockets or anything that is going to add dimensions to the bottom area. Avoid wearing baloon dresses.",
+        "What_to_wear" : " Wearing bright and beautiful scoop-neck and boat-neck tops or off shoulder tops will make your shoulder look wider. Show of your shoulders!! Experiment with different necklines. Make use of jackets(longer jacket, blazers). Whatever you wear on the bottom should always be tailored, suh as flat front pants. Wear tops that gathers around the stomach.Doing so hides your tummy if you need to."
+      },"Triangle_shape" : {
+        "Images" : "URL",
+        "What_not_to_wear" : "Avoid wearing short sleeves with round neck tops, dresses that are overly ruffled. Wide stripes near mid body region are highly avoidable and shorts or skirts that end just below your hips.",
+        "What_to_wear" : "Choose clothes that have lighter color in the upper body region but darker in the middle and lower body region. Wear strapless, boat necks, wide necks, short skirts and shorts to show off your great legs, tops with embellishments or patterns that add volume to your bust line. Well-defined shouldered jackets, dresses, and tops, well fitted dresses around the waist."
+      },
+      "Hourglass_shape" : {
+        "Images" : "URL",
+        "What_not_to_wear" : "Avoid shapeless and loose tops and dresses, and gaudy embellishments.",
+        "What_to_wear" : "Accentuate your waist and wear clothes that show off your perfect curves. Wear broad belts over your shirt or dress, wrap-around tops and skirts, flowy dresses, skirts, well-fitting tops, fitting jackets, tops or dresses with pleated waist, pencil skirts, ¾ skirts with side or back slits, jeggings. Though you can look beautiful in any attire with this shape."
+      },
+      "Oval_shape" : {
+        "Images" : "URL",
+        "What_not_to_wear" :"Avoid wearing tapered jeans or trousers, loose fitting tops, wide stripes, pleated skirts, baggy jackets, tight t-shirts,cardigans.",
+        "What_to_wear" : "Wear square neck, V-neck, and U-neck tops or shirts. You should also wear wrap around tops, skirts, and jackets to slim down your mid-body area, vertical stripes, peplum tops, tunic tops, belted dresses and tops, wide collared jackets, fish-cut or flared skirts, cargo pants with pockets near your hip, empire waisted dresses or tops, dresses or skirts just above your knee to show off your legs and make you look well proportioned."
+      },
+      "Inverted_triangle_shape" : {
+        "Images": "URL",
+        "What_not_to_wear" :"Baggy and shapeless dresses and tops, pencil skirts, tapered jeans and trousers, spaghetti straps, horizontal stripes across your shoulders, baggy waistline and padded shoulders.",
+        "What_to_wear" : "Ruffles around the neck, peplum tops, jeans with back pockets, low waist jeans, checks and stripes in slanting angle, front pockets in skirts, satin dresses, V-necks, A-line dresses and skirts, fish cuts, shorts, long dresses, high-waist pants, bell bottoms, and sequined skirts."
+      }
+    },
+    "Male": {
+      "Triangle_shape" : {
+        "Images": "URL",
+        "What_not_to_wear": "Avoid fitted polo shirts and roll necks as they tend to make neck and shoulders appear slender. Avoid brighter colors and busy prints.",
+        "What_to_wear": "Wear checked blazers and fitted waistcoats with solid trousers. The mix of prints and solid colors will create the illusion of shape and take the focus away from the larger waist. Vertical patterns creates a streamlined effect that elongates and slims down the upper body. Try wearing jackets with structured shoulders. Wear jumpers and crew neck tees with color panels across the chest but a slimming darker color like gray, navy or black around the mid-section."
+      },
+
+      "Rectangle_shape": {
+        "Images": "URL",
+        "What_not_to_wear": "Unsurprisingly, tailoring cut in the shape of a rectangle does little to nothing for the rectangle-shaped body. Try a single-breasted style with plenty of structure in the shoulders instead.",
+        "What_to_wear": "Use clothing to widen the shoulders and add the effect of a subtle taper from your top down. Wear horizontal stripes especially across your upper torso , as they’ll add width to your slight frame. A button-down shirt and fine-gauge crew neck jumper is a no-fail pairing that’ll add instant bulk to your frame. A neatly tied or draped scarf is an easy way to add a point of difference to your look, as well as flesh out your upper torso."
+      },
+
+      "Oval_shape":{
+        "Images": "URL",
+        "What_not_to_wear": "Tight fits in the torso are a bad choice and trying to squeeze into clothing that's too tight is the worst choice of all. Anything with the patterns that draws attention to the mid section is a bad idea. Work on outfits that guide the eye smoothly up the whole length of the body and focus attention on your face.",
+        "What_to_wear": "Keep it simple. The trouser waist should always be comfortably loose, never belted. Suspenders are your best friend. Pleats will help the pants widen slightly when you sit, adding a bit of comfort for men with large thighs and bottoms. A wider collor spread works well for broad men, especially when the neck and face are broad as well.Dark, single-breasted, and only slightly tapered are the keys to a good jacket for big men."
+      },
+      "Trapezoid_shape":{
+        "Images": "URL",
+        "What_not_to_wear": "With this type of perfect shape there is only one necessary tip i.e Always avoid baggy clothes, stick to fitting.",
+        "What_to_wear": "Showcase your athletic body shape in slim and fitted clothes. Find clothes with a close fit or have your trousers tailored. A blazer or suit jacket tapers your waist, making your stomach slimmer and your shoulders seem broader. Wear vertical stripes that will make you appear a little taller and checks and plaids add horizontal bulk, so pick which one you need."}
+    }
+
+  },
+  "Skin_tone":{
+    "Female": {
+      "Fair_tone": {
+        "Colors_that_suits_you": "Fair women usually have peachy-pink/warm undertones,which at times make their complexion look pale. Keep your look radiant and fresh with bright colours like pink, green and peach. Some earth tones such as think of any shade of brown and green. Avoid neon colors they will clash with your skin. Flatter that subtle red undertone in your skin. If skinned with cooler undertones berry family looks great.Brings about a hint of color in your cheeks. Think of jewel tones emerald,turquoise and amethyst. Stay away from too bright and light, will make you look pale. Neons won't bring out the best in your skin tone",
+        "Images": "URL"
+      },
+      "Dusky_tone": {
+        "Colors_that_suits_you": "Girls with dusky skin are lucky because they can pull off sassy look.You want colors that will bring out the warmth in your complexion.People with this tone should chose colors closer to their skin tone. Plum, dark green and brown are the best colors that suit best on the dusky skin. Orange, yellow and turquoise are the shades which will make you look pale and dull.Cream is that one color that can brighten the skin tone of dusky people.",
+        "Images": "URL"
+      },
+      "Dark_tone": {
+        "Colors_that_suits_you": "Dark skinned gals are going to look best in colors on the warm end from pastels to brighter colors and rich, deeper tones as well. Warmer colors will bring out the warmness in your skin tone. Think any shade of purple from light and bright to royal purple, poppy pink, yellows from soft yellow to a bright yellow, and don't forget gold, bronze, and copper. Dark skinned girls can also pull off white in a really fabulous way and colors in the orange and red families. Dark skinned girls should steer clear from browns and blacks, plus colors on the cool end of the spectrum, like blues, gray and silver. If a color is too close to their skin tone, it just won’t flatter as much.",
+        "Images": "URL"
+      }},
+      "Male": {
+        "Fair_tone": {
+          "Colors_that_suits_you": "If you’ve got pale skin and light features, then hues that clearly contrast with your skin tone.Darker colours like grey, brown, burgundy, bottle green, navy and bolder shades of blue will all work well as these shades contrast with your skin tone. You’ll want to avoid soft, pastel shades or bright colours as these will only wash you out further.",
+          "Images": "URL"
+        },
+        "Dusky_tone": {
+          "Colors_that_suits_you": " Most colours will work with a medium skin tone, you can ensure you look your best by opting for shades that are either a little brighter or darker than the middle ground. Choose pale beige rather than warm sand if you’re opting for light neutrals, or try a bolder shade of purple such as magenta rather than mauve.It’s wise to avoid wearing shades of these colours that are too close to your skin tone.",
+          "Images": "URL"
+        },
+        "Dark_tone": {
+          "Colors_that_suits_you": "The colour of your skin is perfectly positioned to marry well with the vast majority of hues and shades. Wear bold, bright colours like jade green or cobalt blue is great. Brown is pretty much a no-go. Much like how pastel shades wash out paler skin tones, brown won’t contrast clearly enough with your skin, resulting in your look ‘bleeding’ into your skin.",
+          "Images": "URL"
+        }
+      }},
+
+    "Height":{
+    "Female": {
+      "Below_5'3":{"According_to_your_height": "High heels are the best way to look tall but hazardous on daily basis. So instead heels go for outfits that'll make you look taller. Monochrome outfits or same color outfits from head to toe creates one vertical  line of color and thus causes the illusion of height. Try wearing vertical stripes outfits, best for petite women.  Wear well fitting outfits, high waist bottoms and V necklines. Avoid baggy clothes and too much layerings. Don't wear tops that end below the hips.", "Images": "URL"},
+      "Above_5'3":{"According_to_your_height": "First things first, embrace your height!! Try on everything with right confidence and posture. Both Long Tall Sally and Taller Than Your Average carry simple tees. For skirts that are an awkward midi length, wear them higher on your waist. This helps balance your proportions. Also, wear belts to your natural waist, to give your body a proportion. Follow three inch heels rule. Rock a jumpsuit!! Taller women looks great in them.", "Images": "URL"}
+    },
+    "Male": {
+      "Below_5'5":{"According_to_your_height" : "Stick to monochrome color scheme, will streamline your look and help create an illusion of height. Darker the better! Although steer clear of all black, as it will actually make you look shorter. Avoid baggy, low waisted trousers. A BLAZER is your best friend!! A fitted blazer or suit jacket will do a couple of things for you. Will help build up your shoulders, which adds height. It'll make your chest look bigger and your waist look smaller if buttoned.","Images" : "URL"},
+      "Above_5'5": {"According_to_your_height" : "If you’re tall but not big, make sure to have your clothes taken in as needed. Don't go for vertical stripes. Instead, go for more subtle plaids or textures while buying a shirt or a suit. Stick to the classics, like solids, checks, and plaids.", "Images": "URL"}
+    }
+  },
+  "My profile" : {
+    "Harpreet82@gmailcom" : {
+      "fullname" : "harpreet",
+      "username" : "Harpreet "
+    },
+    "ashu82@gmailcom" : {
+      "dob" : "12/12/2001",
+      "email" : "ashu82@gmail.com",
+      "fullname" : "Sudarshan",
+      "username" : "Ashu"
+    },
+    "bhavyakumar@gmailcom" : {
+      "fullname" : "Bhavya Kumar",
+      "username" : "Bhavya"
+    },
+    "piya82@gmailcom" : {
+      "fullname" : "piya",
+      "username" : "Priyanka "
+    }
+  }
+}

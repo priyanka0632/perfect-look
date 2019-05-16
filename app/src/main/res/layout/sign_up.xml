@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signup"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        >
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B3FFFFFF"
+        ></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="Sign Up"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000"
+            android:id="@+id/signup"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/signup"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/relative">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:layout_toLeftOf="@+id/image"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fullname"
+                    android:inputType="text"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="serif-monospace"
+                    android:background="@null"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:id="@+id/name"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/image"
+                android:layout_height="wrap_content"
+                android:src="@drawable/username"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relative"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/relative1">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:layout_toLeftOf="@+id/image1"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textStyle="bold"
+                    android:inputType="text"
+                    android:textSize="16dp"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="serif-monospace"
+                    android:background="@null"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:id="@+id/username"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/username"
+                android:id="@+id/image1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relative1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/relative2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_dob"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:layout_toLeftOf="@+id/calender"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="D.O.B"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="true"
+                    android:fontFamily="serif-monospace"
+                    android:background="@null"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:id="@+id/dob"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dob_icon"
+                android:id="@+id/calender"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relative2"
+            android:id="@+id/relative3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="#000"
+                android:layout_toLeftOf="@+id/image2"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email ID"
+                    android:textStyle="bold"
+                    android:inputType="textEmailAddress"
+                    android:textSize="16dp"
+                    android:imeOptions="actionNext"
+                    android:fontFamily="serif-monospace"
+                    android:background="@null"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:id="@+id/email"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/email"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:id="@+id/image2"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relative3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_edittext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/relative4">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@+id/image3"
+                android:textColorHint="#000"
+               >
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:imeOptions="actionDone"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:maxLines="1"
+                    android:id="@+id/password"
+                    android:hint="Password"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/password"
+                android:id="@+id/image5"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative4"
+            android:background="@drawable/gradient_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:text="Sign up"
+            android:textSize="30dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="signUp"
+            android:id="@+id/button"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_below="@+id/button"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

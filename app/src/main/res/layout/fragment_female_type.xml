@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".female_bodyType">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/female_body_type"
+        android:scaleType="centerCrop"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        >
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CCFFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 of 4"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:textSize="20dp"
+            android:id="@+id/number"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Type"
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/number"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/body_type"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Choose your type -"
+            android:layout_below="@+id/body_type"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/choose_type"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/choose_type"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="32dp"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/rect_shape"
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        android:src="@drawable/rectangle_shape"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_rect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rect_shape"
+                        android:layout_centerHorizontal="true"
+                        >
+
+                        <View
+                            android:id="@+id/view_rect"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_rect"
+                            android:fontFamily="serif-monospace"
+                            android:textStyle="bold"
+                            android:text="Small Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_rect1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_rect"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_rect1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_rect1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Slender Waist"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_rect2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_rect1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_rect2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_rect2"
+                            android:fontFamily="serif-monospace"
+                            android:text="Narrow Hips"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_rect2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="RECTANGLE"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn_female_rectangle"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/pear_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/pear_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_pear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pear_shape"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_pear"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_pear"
+                            android:fontFamily="serif-monospace"
+                            android:textStyle="bold"
+                            android:text="Small Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_pear1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_pear"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_pear1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_pear1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Medium Waist"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_pear2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_pear1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_pear2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_pear2"
+                            android:textStyle="bold"
+                            android:fontFamily="serif-monospace"
+                            android:text="Wider Hips"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_pear2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="PEAR"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn_female_pear"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/triangle_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/triangle_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_triangle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/triangle_shape"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_triangle"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_triangle"
+                            android:fontFamily="serif-monospace"
+                            android:text="Narrow Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_triangle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_triangle"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_triangle1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_triangle1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Defined Waist"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_triangle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_triangle1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_triangle2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_triangle2"
+                            android:fontFamily="serif-monospace"
+                            android:text="Larger Hips"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_triangle2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="TRIANGLE"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn_female_triangle"
+                       />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/hourglass_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/hourglass_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_hourglass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hourglass_shape"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_hourglass"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_hourglass"
+                            android:fontFamily="serif-monospace"
+                            android:text="Medium Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_hourglass1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_hourglass"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_hourglass1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_hourglass1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Slim Waist"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_hourglass2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_hourglass1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_hourglass2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_hourglass2"
+                            android:fontFamily="serif-monospace"
+                            android:text="Medium Hips"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_hourglass2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="HOURGLASS"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn_female_hourglass"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/oval_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/oval_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_oval"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/oval_shape"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_oval"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_oval"
+                            android:fontFamily="serif-monospace"
+                            android:text="Large Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_oval1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_oval"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_oval1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_oval1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Wide Waist"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_oval2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_oval1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_oval2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_oval2"
+                            android:fontFamily="serif-monospace"
+                            android:text="Narrow Hips"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_oval2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="OVAL"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:id="@+id/btn_female_oval"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp">
+
+                    <ImageView
+                        android:id="@+id/inverted_shape"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:src="@drawable/inverted_triangle" />
+
+                    <RelativeLayout
+                        android:id="@+id/relative_inverted"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inverted_shape"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_inverted"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_inverted"
+                            android:fontFamily="serif-monospace"
+                            android:text="Broad Bust"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_inverted1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_inverted"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_inverted1"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:textStyle="bold"
+                            android:layout_toRightOf="@+id/view_inverted1"
+                            android:fontFamily="serif-monospace"
+                            android:text="Defined Waist"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relative_inverted2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relative_inverted1"
+                        android:layout_centerHorizontal="true">
+
+                        <View
+                            android:id="@+id/view_inverted2"
+                            android:layout_width="3dp"
+                            android:layout_height="3dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/bullets"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/view_inverted2"
+                            android:fontFamily="serif-monospace"
+                            android:text="Small Hips"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relative_inverted2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/pink_buttons"
+                        android:fontFamily="serif-monospace"
+                        android:text="INVERTED TRIANGLE"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:id="@+id/btn_female_inverted"/>
+
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/swipe_arrow"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/swipe"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/swipe_left"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Left"
+        android:textColor="#fff"
+        android:layout_marginBottom="7dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="13dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/swipe_left"
+       android:layout_alignParentBottom="true"
+
+        />
+
+
+
+
+</RelativeLayout>

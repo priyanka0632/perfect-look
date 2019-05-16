@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308376846044",
+    "firebase_url": "https://perfect-look-f961b.firebaseio.com",
+    "project_id": "perfect-look-f961b",
+    "storage_bucket": "perfect-look-f961b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308376846044:android:14d45f518c135489",
+        "android_client_info": {
+          "package_name": "com.Firebase.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308376846044-0006ia2dc0hgshaeknji7hecv38sbd65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB66t6erDUv6SQy-oeLLYbV9gXJQxct6mw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

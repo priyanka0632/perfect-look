@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choose_gender">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wardrobe"
+            android:scaleType="centerCrop"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            >
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCFFFFFF"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi"
+                android:textColor="#000"
+                android:fontFamily="serif-monospace"
+                android:id="@+id/hi"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/hi"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/username"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Choose your gender -"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="150dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000"
+                android:fontFamily="serif-monospace"
+                android:id="@+id/text"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relative_layout"
+                >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/woman"
+
+                    android:id="@+id/woman"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/man"
+                    android:layout_toRightOf="@+id/woman"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative_layout"
+                android:layout_centerHorizontal="true">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/radio_group"
+                    android:gravity="center"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:id="@+id/female"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/female"
+                        android:text="Male"
+                        android:layout_marginLeft="60dp"
+                        android:textSize="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:id="@+id/male"/>
+
+                </RadioGroup>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
+

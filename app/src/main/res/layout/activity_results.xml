@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/results_image"
+
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E6FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="4 of 4"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/textview"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Do's and Dont's -"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="#000"
+            android:layout_below="@+id/textview"
+            android:id="@+id/results"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/results"
+            android:scrollbars="none"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Body_Type"
+                    android:textSize="20dp"
+                    android:text="BODY TYPE"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="What to wear"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"
+                   android:layout_marginLeft="10dp"
+                    android:id="@+id/what_to_wear"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="What not to wear"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                   android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/what_not_to_wear"
+                    />
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:id="@+id/body_type_flipper"
+                    android:layout_marginTop="5dp"
+                    android:autoStart="true">
+
+
+                </ViewFlipper>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Skin_Tone"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:text="SKIN TONE"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Colors_that_suits_you"
+                    android:textColor="#000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:text="Colors that suits you"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#000"
+                   android:layout_marginRight="5dp"
+                    android:id="@+id/colors_that_suits_you"/>
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:id="@+id/skin_tone_flipper"
+                    android:layout_marginTop="5dp"
+                    android:autoStart="true">
+
+
+                </ViewFlipper>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HEIGHT"
+                    android:textSize="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:id="@+id/Height"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:id="@+id/According_to_height"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="18dp"
+                    android:text="According to your height"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="#000"
+
+                    android:id="@+id/according_to_height"/>
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:id="@+id/height_flipper"
+                    android:layout_marginTop="5dp"
+                    android:autoStart="true">
+                </ViewFlipper>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2196F3"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/link"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Change Preferences"
+                    android:fontFamily="serif-monospace"
+                    android:background="@drawable/gradient_button"
+                    android:id="@+id/change_preferences"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
